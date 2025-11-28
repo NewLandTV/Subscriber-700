@@ -1,4 +1,3 @@
-#include <iostream>
 #include <conio.h>
 #include <Windows.h>
 #include "Screen.h"
@@ -20,16 +19,22 @@ int main()
 
 void Init()
 {
-	// TODO ...
+	Screen::Setup("구독자 700명 감사합니다!");
+	Screen::SetSize(90, 30);
 }
 
 int Update()
 {
 	int key = _getch();
 
-	if (key == VK_ESCAPE)
+	switch (key)
 	{
+	case VK_ESCAPE:
 		return -1;
+	case VK_SPACE:
+		Screen::RenderNext();
+
+		break;
 	}
 
 	return 0;
