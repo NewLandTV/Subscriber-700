@@ -8,11 +8,14 @@ int Screen::height = 0;
 int Screen::currentPage = 0;
 const char* Screen::stories[STORY_COUNT] =
 {
-	"안녕하세요!",
+	"안녕하세요.",
 	"반갑습니다.",
-	"저는 장경혁tv입니다.",
 	"이번에 구독자 700명을 달성해서 진심으로 감사합니다!",
-	"앞으로도 다양한 영상을 제작하겠습니다!"
+	"앞으로도 다양한 영상을 제작하겠습니다!!!",
+	"...",
+	"저번에 올린 AI 버튜버 만드는 영상의 반응이 생각보다 나쁘지 않아서,",
+	"조만간 AI 유아와 실시간 방송을 진행하려고 합니다.",
+	"......"
 };
 
 void Screen::Setup(const char* title)
