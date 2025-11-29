@@ -2,7 +2,7 @@
 #define __SCREEN_H__
 
 #define MAX_BUFFER_SIZE 200
-#define STORY_COUNT 8
+#define STORY_COUNT 14
 
 class Screen
 {

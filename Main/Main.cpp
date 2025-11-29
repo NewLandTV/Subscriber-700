@@ -20,7 +20,7 @@ int main()
 void Init()
 {
 	Screen::Setup("구독자 700명 감사합니다!");
-	Screen::SetSize(90, 30);
+	Screen::SetSize(100, 30);
 }
 
 int Update()
