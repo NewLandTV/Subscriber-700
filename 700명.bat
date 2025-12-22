@@ -1,0 +1,1 @@
+@start conhost D:\02_Work\02_Projects\Subscriber_700_Anniversary\x64\Debug\Main.exe
